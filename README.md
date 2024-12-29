@@ -26,10 +26,10 @@
 ## Installation
 
 ```bash
-go get github.com/yourusername/eveauth
+go get github.com/guarzo/eveauth
 ```
 
-Replace `github.com/yourusername/eveauth` with your actual module path.
+Replace `github.com/guarzo/eveauth` with your actual module path.
 
 ---
 
@@ -47,7 +47,7 @@ import (
     "net/http"
     "time"
 
-    "github.com/yourusername/eveauth"
+    "github.com/guarzo/eveauth"
 )
 
 // myHttpClient wraps a standard http.Client so it implements eveauth.HttpClient.
